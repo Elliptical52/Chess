@@ -2,18 +2,16 @@
 A simple, nice-feeling chess implementation in python using pygame.
 
 ## Features
-* Complete legal move set including en passant, pawn promotion, and castling
-* Easily configurable to look and feel how you want
+* Complete legal move set including en passant, pawn promotion, and castling.
+* Easily configurable to look and feel however you want.
 * Player vs. Player and Player vs. Random modes available (Player vs. Stockfish mode planned for V2.)
-* Satisfying graphics and sound effects
-* Easy to install and supports nearly every platform
-* Straightforward and simple- only neccesary UI included
+* Satisfying graphics and sound effects.
+* Easy to install and supports nearly every platform.
+* Straightforward and simple, with no unneccesary UI included.
 
 ## Screenshot Gallery
-![Gameplay](screenshots/gameplay_1.png)
-![Gameplay](screenshots/gameplay_2.png)
-![Gameplay](screenshots/checkmate.png)
-![Promotion](screenshots/promotion.png)
+<img src="screenshots/gameplay_1.png" width="500"><img src="screenshots/gameplay_2.png" width="500">
+<img src="screenshots/checkmate.png" width="500"><img src="screenshots/promotion.png" width="500">  
 
 ## Installation (Via Git)
 ```bash
