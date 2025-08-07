@@ -11,7 +11,7 @@ A simple, nice-feeling chess implementation in python using pygame.
 
 ## Screenshot Gallery
 <img src="screenshots/gameplay_1.png" width="400"><img src="screenshots/gameplay_2.png" width="400">
-<img src="screenshots/checkmate.png" width="500"><img src="screenshots/promotion.png" width="500">  
+<img src="screenshots/checkmate.png" width="400"><img src="screenshots/promotion.png" width="400">  
 
 ## Installation (Via Git)
 ```bash
