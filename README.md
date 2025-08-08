@@ -2,16 +2,22 @@
 A simple, nice-feeling chess implementation in python using pygame.
 
 ## Features
-* Complete legal move set including en passant, pawn promotion, and castling.
-* Easily configurable to look and feel however you want.
+* Complete legal move set (en passant, pawn promotion, and castling included).
+* Easily configurable so you can make it look however you want.
 * Player vs. Player and Player vs. Random modes available (Player vs. Stockfish mode planned for V2.)
-* Satisfying graphics and sound effects.
-* Easy to install and supports nearly every platform.
-* Straightforward and simple, with no unneccesary UI included.
+* Crisp graphics and satisfying sound effects.
+* Cross-platform support with easy installation.
+* Straightforward and simple interface, with no unneccesary clutter.
 
 ## Screenshot Gallery
-<img src="screenshots/gameplay_1.png" width="400"><img src="screenshots/gameplay_2.png" width="400">
-<img src="screenshots/checkmate.png" width="400"><img src="screenshots/promotion.png" width="400">  
+<p>
+  <img src="screenshots/gameplay_1.png" width="400">
+  <img src="screenshots/gameplay_2.png" width="400">
+</p>
+<p>
+  <img src="screenshots/checkmate.png" width="400">
+  <img src="screenshots/promotion.png" width="400">
+</p>
 
 ## Installation (Via Git)
 ```bash
@@ -21,7 +27,14 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Assets
+## Backend
+* Written entirely in Python with the [pygame](https://www.pygame.org/wiki/about) library.
+* Board state stored as an 8×8 array of strings.
+* Move validation handled by per-piece movement logic.
+* Game loop runs at 60 FPS (customizable)
+* Most assets and constants are loaded, not hardcoded, so as to make modding as easy as possible.
+
+## Credits
 • Chess piece graphics by Cburnett – Licensed under CC BY-SA 3.0
   https://creativecommons.org/licenses/by-sa/3.0/
 
