@@ -9,6 +9,13 @@ A simple, nice-feeling chess implementation in python using pygame.
 * Cross-platform support with easy installation.
 * Straightforward and simple interface, with no unneccesary clutter.
 
+## Backend
+* Written entirely in Python with the [pygame](https://www.pygame.org/wiki/about) library.
+* Board state stored as an 8×8 array of strings.
+* Move validation handled by per-piece movement logic.
+* Game loop runs at 60 FPS (customizable)
+* Most assets and constants are loaded, not hardcoded, so as to make modding as easy as possible.
+
 ## Screenshot Gallery
 <p>
   <img src="screenshots/gameplay_1.png" width="400">
@@ -21,18 +28,19 @@ A simple, nice-feeling chess implementation in python using pygame.
 
 ## Installation (Via Git)
 ```bash
-git clone https://github.com/username/projectname.git
+git clone https://github.com/Elliptical52/Chess.git
 cd projectname
 pip install -r requirements.txt
 python main.py
 ```
 
-## Backend
-* Written entirely in Python with the [pygame](https://www.pygame.org/wiki/about) library.
-* Board state stored as an 8×8 array of strings.
-* Move validation handled by per-piece movement logic.
-* Game loop runs at 60 FPS (customizable)
-* Most assets and constants are loaded, not hardcoded, so as to make modding as easy as possible.
+## Customization
+* Sounds can be changed in the sounds directory
+* Pieces can be changed in the pieces directory
+* If you use a different file format than the default, update the file format in config.py
+* Make sure new files have the same name as old ones 
+* Any constants in config.py can be changed
+
 
 ## Credits
 • Chess piece graphics by Cburnett – CC BY-SA 3.0  
