@@ -35,8 +35,8 @@ python main.py
 * Most assets and constants are loaded, not hardcoded, so as to make modding as easy as possible.
 
 ## Credits
-• Chess piece graphics by Cburnett – CC BY-SA 3.0
-  https://creativecommons.org/licenses/by-sa/3.0/
+• Chess piece graphics by Cburnett – CC BY-SA 3.0  
+    https://creativecommons.org/licenses/by-sa/3.0/
 
-• Chess sounds from Lichess.org – CC0
-  https://creativecommons.org/publicdomain/zero/1.0/
+• Chess sounds from Lichess.org – CC0  
+    https://creativecommons.org/publicdomain/zero/1.0/
