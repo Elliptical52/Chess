@@ -50,6 +50,8 @@ for piece in pieces:
     else:
         images[piece] = pygame.image.load(f'pieces/{piece}.{IMAGE_FILE_FORMAT}')
 
+pygame.display.set_icon(images['white_knight'])
+
 ## Helper Functions
 def other(turn): 
     if turn == 'white': return 'black'
