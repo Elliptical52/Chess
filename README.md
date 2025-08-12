@@ -29,7 +29,7 @@ A simple, nice-feeling chess implementation in python using pygame.
 ## Installation (Via Git)
 ```bash
 git clone https://github.com/Elliptical52/Chess.git
-cd projectname
+cd Chess
 pip install -r requirements.txt
 python main.py
 ```
